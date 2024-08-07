@@ -1,4 +1,4 @@
-function insertationSort(arr) {
+function insertionSort(arr) {
   for (let i = 1; i < arr.length; i++) {
     let key = arr[i];
     let j = i - 1;
@@ -14,4 +14,4 @@ function insertationSort(arr) {
   return arr;
 }
 
-console.log(insertationSort([5, 8, 6, 3, 1, 7]));
+console.log(insertionSort([5, 8, 6, 3, 1, 7]));
